@@ -5,12 +5,12 @@ const receivesAFunction = function (callback) {
 
   function returnsANamedFunction() {
     return function namedFn() {
-      console.log("I am the returned named function");
+      console.log("I'm the returned named function");
     };
   }
 
   function returnsAnAnonymousFunction() {
     return function () {
-      console.log("I am the returned anonymous function");
+      console.log("I'm the returned anonymous function");
     };
   }
